@@ -1,1 +1,22 @@
-
+<?xml version="1.0" encoding=UTF-8" ?>
+ <bug report>
+ <ID_number>324789</ID_number>
+ <application>Vizio</application>
+ <pre-conditions>Open the site https://www.vizio.com/, the user don't need to be logged in</pre-conditions>  
+ <URL>https://www.vizio.com/</URL>
+ <reported by>Mariana Silanteva</reported by>
+ <summary>ZIP_field accepts letters instead of being digits                   only</summary>
+ <steps to reproduce>
+   <step1>Open main menu</step1>
+   <step2>Click Find a retailer</step2>
+   <step3>Enter your ZIP B15019</step3>
+   <step4>Click button Search</step4>
+</steps to reproduce>
+ <expected_result>if you enter the invalid ZIP code you see an error message</expected_result>
+ <actual result>ZIP_field accepts letters and opens the map with the nearest shops</actual result>
+ <attachments>Screenshot</attachments>
+ <severity>major</severity>
+ <priority>medium</priority>
+ <environment>Windows 11 Pro Chrome 116.0.5845.141 (official), (64 bit)</environment>
+ <assigned_to>somebody</assigned to>
+  

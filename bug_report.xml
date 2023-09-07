@@ -5,7 +5,7 @@
  <pre-conditions>Open the site https://www.vizio.com/, the user don't need to be logged in</pre-conditions>  
  <URL>https://www.vizio.com/</URL>
  <reported by>Mariana Silanteva</reported by>
- <summary>ZIP_field accepts letters instead of being digits                   only</summary>
+ <summary>ZIP_field accepts letters instead of being digits only</summary>
  <steps to reproduce>
    <step1>Open main menu</step1>
    <step2>Click Find a retailer</step2>
